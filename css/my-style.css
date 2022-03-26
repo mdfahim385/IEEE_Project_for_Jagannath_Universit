@@ -1,0 +1,404 @@
+
+/* Header Slider*/
+.h-slider {
+	padding-bottom: 20px;
+	max-width: 1080px;
+	margin: 0px auto;
+}
+.header-slider{
+	position: relative;
+	/*z-index: -1;*/
+	/*color: #fff;*/
+	/*position: absolute;*/
+}
+
+/*	@media (min-width: 992px) {
+      .h-slider {
+      	padding: 0 10%;
+  }}*/
+
+.header-slider .carousel-inner img {
+    width: 100%;
+    /*height: 500px;*/
+    min-height: 400px;
+    height: calc(50vh);
+    margin-top: 70px;
+    object-fit: cover;
+	object-position: top;
+  }
+
+  .header-slider-text {
+  	/*z-index: -1;*/
+  	/*position: absolute;*/
+  	/*bottom: 42vh;*/
+  	/*padding-bottom: 50px;*/
+  	/*top: 360px;*/
+  	/*color: #fff;*/
+  }
+
+/*  @media (min-width: 720px) {
+    .header-slider-text {
+      bottom: 20vh; } }*/
+
+/*  @media (max-width: 720px) {
+    .header-slider-text {
+      bottom: 37vh; } }*/
+
+    /*  @media (max-width: 992px) {
+    .header-slider-text {
+      bottom: 40vh;
+      padding-bottom: 0px; } }*/
+/* Header Slider End*/
+
+/* All Slider */
+.all-slider-text {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	/*font-weight: 700;*/
+	border-bottom: 3px solid #32dbc6;
+	/*border-top: 3px solid #32dbc6;*/
+}
+
+.all-slider-text h1 {
+	font-weight: 700;
+}
+.all-slider {
+	width: 100%;
+	/*max-height: 500px;*/
+	/*margin-top: 20px;*/
+	margin-bottom: 50px;
+}
+.all-slider img {
+	width: 100%;
+	height: 500px;
+	/*height: calc(50vh);*/
+	min-height: 250px;
+	object-fit: cover;
+	object-position: top;
+	/*display: block;*/
+}
+
+@media (max-width: 720px) {
+    .all-slider img {
+      height: 300px;} }
+
+.all-slider-img img {
+	/*height: 2000px;*/
+}
+/* All Slider End*/
+
+/* Recent Event */
+/*.event_img {
+	width: 100%;
+	height: 250px;
+	object-fit: cover;
+	object-fit: contain;
+}*/
+/* Recent Event End */
+
+/*---------- About Start -----------*/
+.about-section {
+  background-color: #fff;
+  border: 1px solid gray;
+  padding: 30px;
+  margin: 10px auto;
+}
+/*---------- About End -----------*/
+
+/*---------- FAQ Start -----------*/
+.faq_h1 h1{
+  padding-top: 20px !important;
+  text-align: center;
+  /*margin: 20px 0 !important;*/
+  font-family: sans-serif;
+}
+.faq-card,.faq-card-header{
+  background-color: transparent!important;
+  border: none!important;
+  padding: 0!important;
+  margin-bottom: 20px;
+}
+.faq-card{
+  box-shadow: 0 2px 0 rgba(110,130,208,.18);
+}
+.faq-btn-link{
+  width: 100%;
+  height: 60px;
+  color: black!important;
+  font-weight: bold!important;
+  text-align: left!important;
+  text-decoration: none!important;
+}
+.faq-card-body{
+  background: #e8eeff;
+}
+.faq-btn-link:after{
+  content: '\2212';
+  width: 35px;
+  font-size: 25px;
+  text-align: center;
+  border-radius: 5px;
+  right: 15px;
+  top: 11px;
+  position: absolute;
+  background: #e8eeff;
+}
+.faq-btn-link.collapsed:after{
+  content: '\002B';
+}
+.faq-btn-link:before{
+  content: '';
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  background: white;
+  z-index: 1;
+  transform: rotate(45deg);
+  left: 30px;
+  top: 46px;
+}
+.faq_img img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+/*------------------ FAQ End -----------------*/
+
+/*------------------ Blog Home Page -----------------*/
+/*------------- Blog Rules ------------*/
+.blog-rules {
+  /*border-bottom: 2px solid #32dbc6;*/
+  border-bottom: 2px solid gray;
+}
+.blog-rules-submit{
+  text-align: center;
+}
+/*------------ Blog List -------------*/
+.single-blog{
+  box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.2);
+  padding: 15px; 
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #fff;
+}
+.single-blog img{
+  width: 100%;
+}
+.blog-meta{
+  font-size: 14px;
+  margin-bottom: 2px;
+}
+.single-blog span{
+  float: right;
+  font-size: 14px;
+  color: cornflowerblue;
+}
+.blog-text{
+  font-size: 14px;
+  text-align: justify;
+}
+.single-blog h2{
+  margin-top: 10px;
+  font-size: 16px;
+  color: #007bff;
+}
+.single-blog h2 a{
+  text-decoration: none;
+}
+.read-more-btn{
+  background-image: linear-gradient(to right, #1c03b5,#5c8bef);
+  padding: 5px 12px 8px;
+  border-radius: 20px;
+  line-height: 20px;
+  font-size: 14px;
+  color: #fff;
+  border:  none!important;
+}
+/*----------- Blog Home Page End ------------*/
+
+/*------------ Blog Page_1 Start---------------------*/
+.all-blog {
+  margin-bottom: 50px;
+}
+.all-blog-submit {
+  text-align: center;
+  margin-bottom: 20px;
+  /*border-bottom: 2px solid #32dbc6;*/
+}
+.all-blog-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.all-blog img {
+  max-width: 50%;
+  max-height: 300px;
+}
+/*------------ Blog Page_1 End----------------*/
+
+/*------------ Ex-Com Home Page ----------------*/
+.ex-com-main {
+  background-color: #F1F1F1;
+  }
+.card .lightbox img {
+  border: 1px solid #ddd;
+      border-radius: 4px;
+      padding: 5px;
+      /*width: 330px;*/
+      width: 100%;
+      height: 220px;
+}
+.ex-com-heading-text {
+  text-align: center;
+  padding: 20px;
+  font-style: italic;
+  font-weight: bold;
+  width: 1100px;
+  margin: 0 auto;
+  border-bottom: 2px solid gray;
+}
+
+.gallery-block{padding-bottom: 60px; }
+.gallery-block .heading{margin-bottom: 50px; text-align: center;}
+
+.gallery-block .heading h2{font-weight: bold;font-size: 1.4rem; text-transform: uppercase;}
+
+.gallery-block.cards-gallery h6{font-size: 17px; font-weight: bold;}
+
+.gallery-block.cards-gallery .card{transition: 0.4s easy;}
+.gallery-block.cards-gallery .card img{box-shadow: 0px 2px 10px rgba(0,0,0,0.15);}
+.gallery-block.cards-gallery .card-body{text-align: center;}
+.gallery-block.cards-gallery .card-body p{font-size: 15px;}
+.gallery-block.cards-gallery a{color:#212529; }
+.gallery-block.cards-gallery a:hover{text-decoration: none;}
+.gallery-block.cards-gallery  .card{
+  margin-bottom: 30px;
+  box-shadow: 0px 2px 10px rgba(0,0,0,0.15);
+}
+@media (min-width: 576px) {
+
+  .gallery-block .transform-on-hover:hover {
+      transform: translateY(-10px) scale(1.02);
+      box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important; 
+  }
+}
+.ex-com-gallery {
+  text-align: center;
+  padding: 20px;
+  font-style: italic;
+  font-weight: bold;
+}
+/*------------ Ex-Com End----------------*/
+
+/*---------Ex-Com Sub Page--------------*/
+.ex-com-team {
+  background-color:#F1F1F1;
+}
+.ex-com-team img {
+  border-radius: 20%;
+  -webkit-box-shadow: -1px 3px 12px -3px rgba(0,0,0,0.75);
+  -moz-box-shadow:  -1px 3px 12px -3px rgba(0,0,0,0.75);
+  box-shadow:  -1px 3px 12px -3px rgba(0,0,0,0.75);
+}
+@media (min-width: 576px) {
+  .ex-com-team img {
+    margin-top: 30px;
+  }
+}
+.ex-com-team .img-fluid p {
+  font-weight: lighter;
+  color: grey;
+}
+.ex-com-team .img-fluid small {
+  font-weight:bold ;
+  color:grey;
+}
+.ex-com-team .last_pic {
+  margin: 0px auto;
+}
+.ex-com-team .fa-facebook{
+  color: blue;
+  font-size: 21px;
+}
+.ex-com-team .fa-twitter{
+  color: rgb(14,230,250);
+  font-size: 21px;
+  padding:0 10px ;
+}
+.ex-com-team .fa-pinterest{
+  color:rgb(255,124,36) ;
+  font-size: 21px;
+}
+
+/*------------ Ex-Com End----------------*/
+
+/*------------ Event Home Page----------------*/
+.event-heading-text {
+  text-align: center;
+  padding-top: 20px;
+  font-style: italic;
+  font-weight: bold;
+  margin: 0 auto;
+}
+/*------------ Ex-Com End----------------*/
+
+/*------------ The Authority ----------------*/
+.treasurer-post {
+  background-color: #fff;
+  border: 1px solid gray;
+  padding: 30px;
+  margin: 10px auto;
+}
+.treasurer-title img {
+  border-radius: 20%;
+  -webkit-box-shadow: -1px 3px 12px -3px rgba(0,0,0,0.75);
+  -moz-box-shadow:  -1px 3px 12px -3px rgba(0,0,0,0.75);
+  box-shadow:  -1px 3px 12px -3px rgba(0,0,0,0.75);
+}
+@media (max-width: 768px) {
+  .treasurer-title img {
+    margin-bottom: 30px;
+  }
+}
+.treasurer-title .fa-facebook{
+  color: blue;
+  font-size: 21px;
+}
+.treasurer-title .fa-twitter{
+  color: rgb(14,230,250);
+  font-size: 21px;
+  padding:0 10px ;
+}
+.treasurer-title .fa-pinterest{
+  color:rgb(255,124,36) ;
+  font-size: 21px;
+}
+.treasurer-text h2 {
+  text-align:center;
+  margin-top: 20px;
+}
+
+.the-authority-post {
+  background-color: #fff;
+  border: 1px solid gray;
+  padding: 30px;
+  margin: 10px auto;
+}
+.the-authority-title img {
+  border-radius: 20%;
+  -webkit-box-shadow: -1px 3px 12px -3px rgba(0,0,0,0.75);
+  -moz-box-shadow:  -1px 3px 12px -3px rgba(0,0,0,0.75);
+  box-shadow:  -1px 3px 12px -3px rgba(0,0,0,0.75);
+  width: 50%;
+}
+.the-authority-title p {
+  font-size:22px;
+  text-align:center;
+}
+.the-authority-text p {
+  font-size:15px;
+  text-align:justify;
+}
+/*------------ The Authority End ----------------*/
+
